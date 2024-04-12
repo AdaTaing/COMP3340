@@ -1,0 +1,68 @@
+:root {
+   --element-spacing: 14px;
+}
+body {
+   background-color: var(--color-neutral-050);
+   font-family: 'Roboto', sans-serif;
+   font-weight: 400;    
+   font-size: 16px;
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+}
+
+section.login {
+   color: var(--color-primary-1-800);
+   width: calc(var(--element-spacing)*30);
+   margin: 0 auto;
+
+}
+section h1 {
+   margin-top: calc(var(--element-spacing)*3);
+   font-weight: 500;
+   text-align: center;
+}
+
+/* add your styles here */
+section form{
+   box-shadow: 5px 5px 5px rgba(3, 53, 78, 0.438);
+   border-style: solid;
+   border-radius: 0.5em;
+   border-color: white;
+   background-color: white;
+}
+section form fieldset{
+   border-style: none;
+}
+section form fieldset label{
+   font-size: 0.75em;
+   font-weight: 400;
+}
+section form input{
+   border-color: #c7d6e6;
+   border-style: solid;
+   border-radius: 0.5em;
+   border-width: .1em;
+   padding: 0.75em 5em 0.75em 6em;
+}
+section form input[type="submit"]{
+   font-size: 10px;
+   color: #DCEEFB;
+   background-color: #2680C2;
+   border-style: none;
+   border-radius: 0.5em;
+   padding: 1.25em 7em 1.25em 7em;
+}
+
+section.login form{
+   padding: 0.75em 0.2em 0.1em 0.5em;
+}
+section.login form fieldset p input{
+   margin-top: 0.5em;
+}
+section.login label i{
+   font-size: 12px;
+   color: #E66A6A;
+}
+.error{
+   border-color: #E66A6A;
+}

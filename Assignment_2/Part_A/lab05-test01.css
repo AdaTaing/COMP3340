@@ -1,0 +1,32 @@
+
+body {
+   background-color: white;
+   margin: 1em;
+   font-family: 'Roboto Condensed', sans-serif;
+   font-weight: 400;    
+   font-size: 16px;
+}
+
+table{
+   font-size: 0.8em;
+   border-collapse: collapse;
+   text-align: left;
+   border-top: 2px solid rgb(229, 229, 229);
+   border-bottom: 2px solid rgb(229, 229, 229);
+}
+
+thead tr{
+   background-color: rgb(229, 229, 229);
+}
+th{
+   color: rgb(136, 135, 135);
+   padding: 0.75em 1.75em 0.75em 1.25em;
+}
+
+tbody tr{
+   border-bottom: 2px solid rgb(229, 229, 229);
+}
+tbody td{
+   font-weight:bold;
+   padding: 0.75em 1.75em 0.75em 1.25em;
+}

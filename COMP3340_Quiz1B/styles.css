@@ -1,0 +1,92 @@
+/* Add your CSS style definitions to this file */
+*{
+    background-color: rgb(237, 235, 235);
+}
+article{
+    box-sizing: content-box;
+    background-color: white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    width: 50%;
+}
+
+.hero{
+    display: block;
+    width: 100%;
+
+}
+
+article h1{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+    background-color: white;
+    color: rgb(217, 0, 40);
+    margin-bottom: 0;
+}
+
+article p{
+    background-color: white;
+    font-size: 20px;
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-bottom: 0;
+}
+
+article blockquote{
+    font-size: 20px;
+    font-weight: 550;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 1em;
+    border-style: solid;
+    border-color: rgb(216, 215, 215);
+}
+
+#details{
+    background-color: white;
+    color: lightgray;
+    text-align: center;
+    margin-top: 0;
+    font-family: sans-serif;
+    font-size: 20px;
+}
+
+#buttons{
+    display: flex;
+    justify-content: flex-start;
+    align-content: space-around;
+    background-color: white;
+    margin-right: 2em;
+    margin-left: 2em;
+    margin-top: 0;
+}
+
+#buttons a{
+    display: inline-block;
+    padding: 1em;
+    color:darksalmon;
+    background-color: white;
+    border-style: solid;
+    border-radius: 1em;
+    border-color: rgb(234, 234, 234);
+    margin: .5em;
+}
+
+article footer{
+    background-color: rgb(21, 21, 30);
+    padding: 1.5em;
+}
+
+article footer p{
+    color: white;
+    background-color: rgb(21, 21, 30);
+}
+article footer a{
+    color:darksalmon;
+    background-color: rgb(21, 21, 30);
+    text-decoration: none;
+}

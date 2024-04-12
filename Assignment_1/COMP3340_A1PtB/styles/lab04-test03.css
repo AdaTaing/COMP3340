@@ -1,0 +1,104 @@
+h1{
+    color:deeppink;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: 200;
+    letter-spacing: .25em;
+}
+#colors div{
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    font-size: .5em;
+}
+.circle_color1{
+    background-color: #f62f5e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    margin: 1em;
+}
+.circle_color2{
+    background-color: #f1ad3d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    margin: 1em;
+}
+.circle_color3{
+    background-color:#6ebdca;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    margin: 1em;
+}
+.circle_color4{
+    background-color:#eefc91;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    margin: 1em;
+}
+.circle_color5{
+    background-color: #F7ECEB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10em;
+    height: 10em;
+    border-radius: 50%;
+    margin: 1em;
+}
+.details{
+    font-style: italic;
+    color:lightgrey;
+    margin: 0;
+}
+
+#typography h2{
+    font-family: 'Oswald';
+    font-weight: 600;
+    font-size: 36px;
+    margin-bottom: 0;
+}
+
+#typography h3{
+    font-family: 'Oswald';
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 0;
+}
+
+#typography h4{
+    font-family: 'Oswald';
+    font-weight: 400;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.bodytext{
+    font-family:'open sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 0;
+}
+.asidetext{
+    font-family:'open sans';
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    margin-bottom: 0;
+}

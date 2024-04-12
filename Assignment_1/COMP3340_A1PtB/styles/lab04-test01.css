@@ -1,0 +1,74 @@
+
+*{
+   font-family: 'Raleway', sans-serif;   
+   font-weight: 300;   
+   margin: 25px;
+}
+
+
+
+h1, h2{
+   font-family: 'Merriweather', serif;
+}
+
+
+h1 {
+   font-weight: 900;
+} 
+
+
+h2{
+   font-weight: 300;
+} 
+
+
+
+#parent{
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+   grid-gap: 40px;
+}
+
+
+section figure{
+   margin: 0;
+   padding: 10px;
+   border: 1pt solid black;
+}
+
+
+
+section p:first-of-type{
+   font-style: italic;
+}
+
+
+section p{
+   color: slateblue;
+}
+
+
+
+
+[alt~="Museum"]{
+   border: 1pt solid slateblue;
+   padding: 5px;
+}
+
+
+
+figcaption a[href]{
+   display: inline-block;
+   background-color: darkblue;
+   color: white;
+   padding: 1em 1.5em;
+   text-decoration: none;
+   text-transform: uppercase;   
+}
+
+
+
+figcaption a[href]:hover{
+   background-color: slateblue;
+
+}

@@ -1,0 +1,157 @@
+
+* {
+   box-sizing: border-box;
+}
+body, section, header, div, p, h1, h2, h3, ul, li {
+   margin: 0;
+   padding: 0;
+}
+body {
+   font-family: 'Open Sans', sans-serif;
+   box-sizing: border-box;
+   background-color: #e4e7eb;
+   font-weight: 300;
+}
+header {
+   margin-left: 20px;
+}
+h1 { 
+   text-align: center;
+   font-weight: 600;
+   font-size: 42px;
+   padding: 10px 0;
+}
+
+/* add styles here */
+section{
+   padding: 1em;
+   display: grid;
+   grid-template-areas: 
+      'header header header'
+      'col1 col2 col3';
+   gap: 10px;
+}
+section > *{
+   grid-template-columns: auto auto auto;
+   text-align: center;
+}
+
+section > header{
+   grid-area: header;
+   display: block;
+}
+
+.column{
+   background-color: white;
+   padding: 1em 0 2em 0;
+   font-weight: 500;
+}
+.column p[class=free]{
+   grid-area: col1;
+   
+}
+.column p[class=featured]{
+   grid-area: col2;
+   
+}
+.column p[class=professional]{
+   grid-area: col3;
+   
+}
+
+.column h3{
+   font-size: 2em;
+   padding: 0.25em;
+}
+
+.column ul{
+   margin-bottom: 1em;
+}
+
+.column ul li{
+   display: block;
+   list-style-type: none;
+   padding: 1em;
+   text-transform: capitalize;
+}
+.column ul li:nth-of-type(even){
+   background-color: rgb(189, 189, 189);
+}
+
+.column a{
+   display: block;
+   text-decoration: none;
+   color: white;
+   background-color: rgb(61, 104, 177);
+   padding: 1em;
+   margin: 0 1em;
+   margin-top: 3em;
+   border-radius: 0.25em;
+}
+
+.column ul li span{
+   font-weight: 800;
+}
+
+.price{
+   display: block;
+   font-size: 3em;
+   font-weight: 800;
+   padding: 0.75em;
+}
+
+.price span{
+   font-weight: 500;
+   font-size: medium;
+}
+
+.free{
+   background-color: rgb(66, 167, 96);
+}
+
+.standard{
+   background-color: rgb(38, 10, 73);
+}
+
+.professional{
+   background-color: rgb(229, 112, 69);
+}
+
+.featured{
+   background-color: rgb(6, 63, 45);
+   color: white;
+}
+.featured ul li:nth-of-type(even){
+   background-color: rgb(75, 101, 92);
+}
+
+#confidence{
+   margin-top: 2em;
+   background-color: rgb(6, 63, 45);
+   color: white;
+   padding: 2em;
+}
+#confidence h2{
+   font-size: 3em;
+   font-weight: 600;
+}
+#confidence ul{
+   margin-top: 1em;
+   list-style: none;
+}
+#confidence p{
+   font-size: 17px;
+}
+#confidence ul li{
+   padding-left: 30px;
+   background: url("checkmark.svg");
+   background-repeat: no-repeat;
+   background-size: 20px;
+   font-size: 20px;
+   margin-bottom: 0.5em;
+}
+#confidence a{
+   color:rgb(55, 184, 207);
+   font-style: italic;
+   font-weight: 600;
+}

@@ -1,0 +1,88 @@
+*{
+    font-family: 'Raleway', sans-serif;   
+    color: black;
+    font-weight: 100; 
+    font-size: 15px;
+    margin: 0;
+    padding: 0;
+ }
+
+ header{
+    width: auto;
+    height: 450px;
+    background-image: url("../images/chicago.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+ }
+
+ header h1, header p, header a{
+   margin-left: 5%;
+ }
+
+ header h1{
+   padding-top: 5%;
+   color: white;
+   font-size: 25px;
+   font-weight: 800;
+ }
+ header p{
+   margin-top: 1em;
+   font-weight: 700;
+ }
+ header a{
+   color: white;
+   display: inline-block;
+   padding: .25em .5em;
+   background-color:deeppink;
+   text-decoration: none;
+   border-radius: .25em;
+ }
+
+main{
+   display: grid;
+   grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+   grid-gap: 40px;
+   margin-top: 2em;
+   margin-left: 1em;
+}
+.box{
+   display: inline-block;
+   padding: 30px 40px;
+   border-radius: .5em;
+   text-align: center;
+}
+.box:first-of-type{
+   background-color: green;
+}
+.box:first-of-type h3{
+   font-weight: 800;
+   font-size: 2em;
+   color: white;
+}
+.box:first-of-type p{
+   color: white;
+}
+
+.box:nth-of-type(2){
+   background-color: purple;
+}
+.box:nth-of-type(2) h3{
+   font-weight: 800;
+   font-size: 2em;
+   color: white;
+}
+.box:nth-of-type(2) p{
+   color: white;
+}
+
+.box:last-of-type{
+   background-color: blue;
+}
+.box:last-of-type h3{
+   font-weight: 800;
+   font-size: 2em;
+   color: white;
+}
+.box:last-of-type p{
+   color: white;
+}
