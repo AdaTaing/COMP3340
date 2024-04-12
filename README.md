@@ -2,7 +2,7 @@
 
 # World Wide Web System Dev
 
-# Assignements:
+# Assignments:
 
 
 
